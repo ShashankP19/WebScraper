@@ -4,7 +4,7 @@
 
 Execution command
 ```
-python scrape.py -o <output filename> -e <browser ('firefox', 'chrome', )> <url>
+python scrape.py -o <output filename> -e <browser ('firefox', 'chrome')> -n <max no. of reviews per restaurant> <url>
 
 ```
 Has been tested only with firefox
