@@ -6,6 +6,7 @@ import logging
 import re
 import sys
 import time
+import os
 
 import pandas as pd
 from selenium import webdriver
@@ -185,7 +186,10 @@ if __name__ == '__main__':
         #print(restaurant_links)
         for restaurant_url in restaurant_links:
             df = scraper.fetch_reviews(restaurant_url, args.max)
-            df.to_csv(args.outfile, mode='a', header=False)
+            if os.path.exists('test_review.csv'):
+                df.to_csv(args.outfile, mode='a', header=False)
+            else:
+                df.to_csv(args.outfile)
             print('Successfully fetched {} reviews.'.format(len(df.index)))
     
 scraper.close()
