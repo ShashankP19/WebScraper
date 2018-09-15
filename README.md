@@ -7,7 +7,8 @@ Execution command
 python scrape.py -o <output filename> -e <browser ('firefox', 'chrome')> -n <max no. of reviews per restaurant> <url>
 
 ```
-Has been tested only with firefox
+- Has been tested only with firefox
+- If file with the given output filename already exists, then data is appended to the same file.
 
 #### Examples
 
