@@ -27,5 +27,5 @@ For example,
  ```
 
 - If file with the given output csv filename already exists, then data is appended to the same file.
-- Tip: If scrapper stops abruptly, but if you want to continue from where you left off, manually remove the urls from the text file which have already been scraped.   
+- Tip: If scraper stops abruptly, but if you want to continue from where you left off, manually remove the urls from the text file which have already been scraped.   
 - Has been tested with firefox only
