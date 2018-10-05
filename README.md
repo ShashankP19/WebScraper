@@ -21,9 +21,9 @@ python scrape.py -o <output csv filename> -l <input urls text file> -e <browser 
 
 ```
 
-For example, 
+For example, to scrape a max. of 100 reviews from restaurants in agra
  ```
- python scrape.py -o 'agra.csv' -l 'agra_rest_urls.txt' -e 'firefox'
+ python scrape.py -o 'agra.csv' -l 'agra_rest_urls.txt' -e 'firefox' -n 100
  ```
 
 - If file with the given output csv filename already exists, then data is appended to the same file.
