@@ -1,5 +1,10 @@
 # WebScraper
 
+### Dependencies
+- python
+- pandas
+- selenium
+
 ### To get urls of all restaurants in a city
 Execution command
 ```
