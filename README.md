@@ -1,9 +1,9 @@
 # WebScraper
 
 ### Dependencies
-- python
+- python 3
 - pandas
-- selenium
+- selenium (if using anaconda env, `conda install -c clinicalgraphics selenium`)
 
 ### To get urls of all restaurants in a city
 Execution command
